@@ -112,8 +112,8 @@ background: #989898;
 color: white;
 background: #DD4814;
 }
-#log0{
-        background-image:url(/media/images/logo-background.png);
+#logo{
+        background-image:url("/media/images/logo-background.png");
         background-repeat:repeat-x;
         height:100px;
         width:100%;
