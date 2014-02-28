@@ -17,7 +17,6 @@ layout: page
     <p>{{ post.content | strip_html | truncate: site.truncate }}
     <a href="{{ post.url }}" title="{{ post.title }}">阅读全文</a>
     </p>
-    {% if site.truncate %}
     {% endif%}
     <hr/>
   </li>
