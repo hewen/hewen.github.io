@@ -8,24 +8,24 @@
                 <priority>1.0</priority>
         </sitemap>
         <sitemap>
-        <sitemap>
-        <sitemap>
-        <sitemap>
                 <loc>http://hewen.github.io/</loc>
                 <lastmod>2014-02-26</lastmod>
                 <changefreq>daily</changefreq>
                 <priority>1.0</priority>
         </sitemap>
+        <sitemap>
         <loc>http://hewen.github.io/categories</loc>
                 <lastmod>2014-02-26</lastmod>
                 <changefreq>daily</changefreq>
                 <priority>1.0</priority>
         </sitemap>
+        <sitemap>
                 <loc>http://hewen.github.io/tags</loc>
                 <lastmod>2014-02-26</lastmod>
                 <changefreq>daily</changefreq>
                 <priority>1.0</priority>
         </sitemap>
+        <sitemap>
                 <loc>http://hewen.github.io/guestbooke</loc>
                 <lastmod>2014-02-26</lastmod>
                 <changefreq>daily</changefreq>
