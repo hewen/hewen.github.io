@@ -1,0 +1,15 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://hewen.github.io
+name: hewen.github.io 
+author: HeWen
+qq: 770465680
+email: HeWen.coder@gmail.com 
+duoshuo: hewen
+github: hewen
+pygments: true
+safe: true
+paginate: 20
+about: "喜欢Linux、Freebsd<br/><br/>
+        喜欢绘画、喜欢倒腾<br/><br/>
+        会些web开发，html、css、php<br/><br/>
