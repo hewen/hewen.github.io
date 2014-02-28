@@ -10,7 +10,7 @@ github: hewen
 pygments: true
 safe: true
 paginate: 20
-truncate: 300
+truncate: 200
 about: "喜欢Linux、Freebsd<br/><br/>
         喜欢绘画、喜欢倒腾<br/><br/>
         会些web开发，html、css、php<br/><br/>"
