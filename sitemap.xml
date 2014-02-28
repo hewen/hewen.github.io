@@ -1,45 +1,69 @@
-<?xml version="1.0"  encoding="UTF-8" ?> 
-<sitemapindex>
-        <sitemap>
-                <loc>http://hewen.github.io/</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-                <loc>http://hewen.github.io/</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-        <loc>http://hewen.github.io/categories</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-                <loc>http://hewen.github.io/tags</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-                <loc>http://hewen.github.io/guestbooke</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-                <loc>http://hewen.github.io/about</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-        <sitemap>
-                <loc>http://hewen.github.io/feed</loc>
-                <lastmod>2014-02-26</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-        </sitemap>
-</sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://hewen.github.io/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/categories/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/tags/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/guestbook/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/about/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/feed/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/Emmet/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/startGentoo/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/myWacom/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hewen.github.io/firefox/</loc>
+  <lastmod>2014-02-28T11:16:33+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
