@@ -5,7 +5,7 @@ layout: page
 comments: yes
 ---
 <script src="/media/draw/js/cloud-carousel.1.0.5.min.js" type="text/javascript"></script>
-pt type="text/javascript">
+<script type="text/javascript">
 $(function() {
                 $('.kc-wrap').KillerCarousel({
                         // Width of carousel.
