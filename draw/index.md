@@ -33,6 +33,11 @@ $(document).ready(function(){
 
 </script>
 <div id = "carousel1">            
+<div id="nav-buts">
+        <input id="right-but" type="button" value="<<" />
+        <input id="left-but"  type="button" value=">>" />
+</div>
+
 <a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title"/></a>
 <a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title"/></a>
 <a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title"/></a>
