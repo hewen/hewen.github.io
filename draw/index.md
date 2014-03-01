@@ -43,6 +43,5 @@ $(document).ready(function(){
 <a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title"/></a>
 <a href="/draw/2014-02-03"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03_small.gif" alt="Flag 4 Description" title="Flag 4 Title"/></a>
 <a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title"/></a>
-<input id="right-but" type="button" value="<<" />
-<input id="left-but"  type="button" value=">>" />
+</div>
 <p id="title-text"></p>
