@@ -3,9 +3,8 @@ title: 绘画
 layout: page
 comments: yes
 ---
-<link rel="stylesheet" href="/draw/css/draw.css" />
-<div id="draw"><img src="./image/2014-02-06.gif"></img></div>
-<div id="draw"><img src="./image/2014-02-06-01.gif"></img></div>
-<div id="draw"><img src="./image/2014-02-03.gif"></img></div>
-<div id="draw"><img src="./image/2014-02-03-02.gif"></img></div>
-<div id="draw"><img src="./image/2014-01-21.gif"></img></div>
+<div id="draw_list"><a herf="./2014-02-06.md"><img src="./image/small/2014-02-06_small.gif"></img></a></div>
+<div id="draw_list"><a herf="./2014-02-06-01.md"><img src="./image/small/2014-02-06-01_small.gif"></img></a></div>
+<div id="draw_list"><a herf="./2014-02-03-02.md"><img src="./image/small/2014-02-03-02_small.gif"></img></a></div>
+<div id="draw_list"><a herf="./2014-02-03.md"><img src="./image/small/2014-02-03_small.gif"></img></a></div>
+<div id="draw_list"><a herf="./2014-01-21.md"><img src="./image/small/2014-01-21_small.gif"></img></a></div>
