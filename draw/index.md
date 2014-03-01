@@ -40,6 +40,7 @@ $(document).ready(function(){
 <a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title"/></a>
 </div>
 
-<input id="left-but"  type="button" value="Left" />
-<div id="title-text"></div>
-<input id="right-but" type="button" value="Right" />
+<p id="title-text">
+<input id="left-but"  type="button" value="<<" />
+<input id="right-but" type="button" value=">>" />
+</p>
