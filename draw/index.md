@@ -9,7 +9,7 @@ $(document).ready(function(){
         // This initialises carousels on the container elements specified, in this case, carousel1.
         $("#carousel1").CloudCarousel(        
         {            
-                xPos: 350,//调整与左边框的距离
+                xPos: 320,//调整与左边框的距离
                 yPos: 50,//调整top 距离
                 buttonLeft: $("#left-but"),//左转
                 buttonRight: $("#right-but"),//右转
