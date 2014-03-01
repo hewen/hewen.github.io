@@ -33,12 +33,7 @@ $(document).ready(function(){
 
 </script>
 
-</head>
-<body>
-<!-- This is the container for the carousel. -->
 <div id = "carousel1" style="width:600px; height:300px;background:#000;overflow:scroll;">            
-<!-- All images with class of "cloudcarousel" will be turned into carousel items -->
-<!-- You can place links around these images -->
 <a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title" width='150px' /></a>
 <a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title" width='150px'/>
 <a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title" width='150px'/>
@@ -50,5 +45,3 @@ $(document).ready(function(){
 <input id="left-but"  type="button" value="Left" />
 <div id="title-text"></div>
 <input id="right-but" type="button" value="Right" />
-
-<!-- Define elements to accept the alt and title text from the images. -->
