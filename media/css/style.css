@@ -123,7 +123,7 @@ background: #DD4814;
         color:#FFFFFF;
 }
 #carousel1{width: 100%;transform-style: preserve-3d;height:400px;background:#000;overflow:scroll;}
-.cloudcarousel{width:200px;}
+.cloudcarousel{width:150px;}
 #left-but,#right-but {
         font-family: arial;
         width:32px;
