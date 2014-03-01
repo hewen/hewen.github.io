@@ -3,8 +3,8 @@ title: 绘画
 layout: page
 comments: yes
 ---
-<script src="/media/draw/js/cloud-carousel.1.0.5.min.js" mce_src="/media/draw/js/cloud-carousel.1.0.5.min.js" type="text/javascript"></script>
-<script type="text/javascript">  
+<script src="/media/draw/js/cloud-carousel.1.0.5.min.js" type="text/javascript"></script>
+<script >  
 $(document).ready(function(){  
                 $("#draw_list").CloudCarousel(        
                 {             
