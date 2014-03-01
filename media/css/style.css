@@ -122,5 +122,5 @@ background: #DD4814;
         text-align: center;
         color:#FFFFFF;
 }
-.draw{margin:20px;width:80%; }
+#draw{margin:20px;width:80%; }
 .draw_list{margin:20px;width:300px;height:300px;float:left; }
