@@ -122,7 +122,8 @@ background: #DD4814;
         text-align: center;
         color:#FFFFFF;
 }
-#carousel1{width:80%; height:300px;background-image:url("/media/images/draw_background.png");overflow:scroll;} 
+#carousel1{width:100%; height:300px;background-image:url("/media/images/draw_background.png");overflow:scroll;background-position: center center;overflow: hidden;padding-bottom: 35%;position: relative;
+} 
 .cloudcarousel{width:150px;}
 #left-but,#right-but {
         font-family: arial;
