@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 </script>
 <div id = "carousel1">            
-最新作品
+<div id="nav-text">最新作品</div>
 <div id="nav-buts">
         <input id="right-but" type="button" value="<<" />
         <input id="left-but"  type="button" value=">>" />
