@@ -123,4 +123,4 @@ background: #DD4814;
         color:#FFFFFF;
 }
 #draw{margin:20px;width:80%; }
-.draw_list{margin:20px;width:200px;height:200px;float:left; }
+#draw_list{margin:20px;float:left; }
