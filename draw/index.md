@@ -6,30 +6,29 @@ comments: yes
 <SCRIPT LANGUAGE="JavaScript" src="/media/draw/js/cloud-carousel.1.0.5.min.js"></SCRIPT>
 <script>
 $(document).ready(function(){
-                // This initialises carousels on the container elements specified, in this case, carousel1.
-                $("#carousel1").CloudCarousel(        
-                        {            
-xPos: 300,//调整与左边框的距离
-yPos: 50,//调整top 距离
-buttonLeft: $("#left-but"),//左转
-buttonRight: $("#right-but"),//右转
-altBox: $("#alt-text"),//图片alt属性值
-titleBox: $("#title-text"),//图片title值
-reflHeight:50,//图片倒影
-reflOpacity:0.5,//图片倒影的透明度
-reflGap:0,//图片与倒影的距离
-minScale:0.5,
-xRadius:0,//所有图片围城的圈的大小（平行）
-yRadius:50,//所有图片围城的圈的视角
-FPS: 30,//图片旋转缓冲的速度
-autoRotate: 'none',//默认的转动方向
-autoRotateDelay: 2500,//默认图片的停留时间毫秒算
-speed:0.2,//图片旋转的速度
-mouseWheel: true,
-bringToFront: true
-
-                        }
-);
+        // This initialises carousels on the container elements specified, in this case, carousel1.
+        $("#carousel1").CloudCarousel(        
+        {            
+                xPos: 300,//调整与左边框的距离
+                yPos: 50,//调整top 距离
+                buttonLeft: $("#left-but"),//左转
+                buttonRight: $("#right-but"),//右转
+                altBox: $("#alt-text"),//图片alt属性值
+                titleBox: $("#title-text"),//图片title值
+                reflHeight:50,//图片倒影
+                reflOpacity:0.5,//图片倒影的透明度
+                reflGap:0,//图片与倒影的距离
+                minScale:0.5,
+                xRadius:0,//所有图片围城的圈的大小（平行）
+                yRadius:50,//所有图片围城的圈的视角
+                FPS: 30,//图片旋转缓冲的速度
+                autoRotate: 'none',//默认的转动方向
+                autoRotateDelay: 2500,//默认图片的停留时间毫秒算
+                speed:0.2,//图片旋转的速度
+                mouseWheel: true,
+                bringToFront: true
+        }
+        );
 });
 
 </script>
@@ -49,9 +48,7 @@ bringToFront: true
 
 <!-- Define left and right buttons. -->
 <input id="left-but"  type="button" value="Left" />
+<div id="title-text"></div>
 <input id="right-but" type="button" value="Right" />
 
 <!-- Define elements to accept the alt and title text from the images. -->
-<p id="title-text"></p>
-<p id="alt-text"></p>
-
