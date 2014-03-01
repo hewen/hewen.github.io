@@ -1,4 +1,3 @@
-
 ---
 title: 绘画
 layout: page
