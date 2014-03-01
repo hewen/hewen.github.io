@@ -38,12 +38,12 @@ $(document).ready(function(){
         <input id="left-but"  type="button" value=">>" />
 </div>
 
-<a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title" width="200px"/></a>
-<a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title" width="200px"/></a>
-<a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title" width="200px"/></a>
-<a href="/draw/2014-02-03"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="200px"/></a>
-<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="200px"/></a>
-<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="200px"/></a>
-<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="200px"/></a>
+<a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title" width="180px"/></a>
+<a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title" width="180px"/></a>
+<a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title" width="180px"/></a>
+<a href="/draw/2014-02-03"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="180px"/></a>
+<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="180px"/></a>
+<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="180px"/></a>
+<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="180px"/></a>
 </div>
 <p id="title-text"></p>
