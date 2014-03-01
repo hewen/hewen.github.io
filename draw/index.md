@@ -1,7 +1,7 @@
 ---
 title: 绘画
 layout: page
-comments: yes
+comments: no
 ---
 <SCRIPT LANGUAGE="JavaScript" src="/media/draw/js/cloud-carousel.1.0.5.min.js"></SCRIPT>
 <script>
