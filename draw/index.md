@@ -33,6 +33,7 @@ $(document).ready(function(){
 
 </script>
 <div id = "carousel1">            
+最新作品
 <div id="nav-buts">
         <input id="right-but" type="button" value="<<" />
         <input id="left-but"  type="button" value=">>" />
@@ -47,6 +48,8 @@ $(document).ready(function(){
 <a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width="180px"/></a>
 </div>
 
+所有作品
+<hr/>
 <a href="/draw/2014-02-06"><img class="draw_list" src="/media/draw/image/small/2014-02-06_small.gif"></a>
 <a href="/draw/2014-02-06-01"><img class="draw_list" src="/media/draw/image/small/2014-02-06-01_small.gif"></a>
 <a href="/draw/2014-02-03-02"><img class="draw_list" src="/media/draw/image/small/2014-02-03-02_small.gif"></a>
