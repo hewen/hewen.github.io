@@ -31,6 +31,11 @@ $(document).ready(function(){
         );
 });
 
+var Ptr=document.getElementById("show").getElementsByTagName("img");
+for(var i=0;i<Ptr.length;i++) {
+        Ptr[i].onclick=function(){
+                window.open(this.src)
+}
 </script>
 <div id = "carousel1">            
 <div id="nav-text">最新作品</div>
