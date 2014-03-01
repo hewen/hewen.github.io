@@ -33,7 +33,7 @@ $(document).ready(function(){
 
 </script>
 
-<div id = "carousel1" style="position: absolute; top: 50%; width: 100%; perspective: 1500px; transform-style: preserve-3d; perspective-origin: 50% 0px; left: 70px; transform: scaleX(0.99875) scaleY(0.99875); visibility: visible;">            
+<div id = "carousel1" style="width: 100%; perspective: 1500px; transform-style: preserve-3d; perspective-origin: 50% 0px; left: 70px; visibility: visible;">            
 <a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title" width='150px' /></a>
 <a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title" width='150px'/>
 <a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title" width='150px'/>
