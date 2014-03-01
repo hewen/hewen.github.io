@@ -32,13 +32,16 @@ $(document).ready(function(){
 });
 
 </script>
-
-<div id = "carousel1" style="width: 100%; perspective: 1500px; transform-style: preserve-3d; perspective-origin: 50% 0px; left: 70px; visibility: visible;">            
-<a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title" width='150px' /></a>
-<a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title" width='150px'/>
-<a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title" width='150px'/>
-<a href="/draw/2014-02-03"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width='150px'/>
-<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title" width='150px'/>
+<style>
+#carousel1{width: 100%;transform-style: preserve-3d;height:400px;background:#000;overflow:scroll;}
+.cloudcarousel{width:300px;}
+</style>
+<div id = "carousel1">            
+<a href="/draw/2014-02-06"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06_small.gif" alt="Flag 1 Description" title="Flag 1 Title"/></a>
+<a href="/draw/2014-02-06-01"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-06-01_small.gif" alt="Flag 2 Description" title="Flag 2 Title"/>
+<a href="/draw/2014-02-03-02"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03-02_small.gif" alt="Flag 3 Description" title="Flag 3 Title"/>
+<a href="/draw/2014-02-03"><img class = "cloudcarousel" src="/media/draw/image/small/2014-02-03_small.gif" alt="Flag 4 Description" title="Flag 4 Title"/>
+<a href="/draw/2014-01-21"><img class = "cloudcarousel" src="/media/draw/image/small/2014-01-21_small.gif" alt="Flag 4 Description" title="Flag 4 Title"/>
 </div>
 
 <input id="left-but"  type="button" value="Left" />
