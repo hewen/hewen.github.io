@@ -33,9 +33,9 @@ $(document).ready(function(){
 
 </script>  
 <div id="draw_list">
-        <a href="/media/draw/2014-02-06"><img src="/media/draw/image/small/2014-02-06_small.gif"></a>
-        <a href="/media/draw/2014-02-06-01"><img src="/media/draw/image/small/2014-02-06-01_small.gif"></a>
-        <a href="/media/draw/2014-02-03-02"><img src="/media/draw/image/small/2014-02-03-02_small.gif"></a>
-        <a href="/media/draw/2014-02-03"><img src="/media/draw/image/small/2014-02-03_small.gif"></a>
-        <a href="/media/draw/2014-01-21"><img src="/media/draw/image/small/2014-01-21_small.gif"></a>
+        <a href="/draw/2014-02-06"><img class="CloudCarousel" src="/media/draw/image/small/2014-02-06_small.gif"></a>
+        <a href="/draw/2014-02-06-01"><img class="CloudCarousel" src="/media/draw/image/small/2014-02-06-01_small.gif"></a>
+        <a href="/draw/2014-02-03-02"><img class="CloudCarousel" src="/media/draw/image/small/2014-02-03-02_small.gif"></a>
+        <a href="/draw/2014-02-03"><img class="CloudCarousel" src="/media/draw/image/small/2014-02-03_small.gif"></a>
+        <a href="/draw/2014-01-21"><img class="CloudCarousel" src="/media/draw/image/small/2014-01-21_small.gif"></a>
 </div>
