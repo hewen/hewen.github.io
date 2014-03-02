@@ -6,4 +6,5 @@ thread: 166
 category: 绘画
 tags: 绘画 
 ---
-<div id="draw"><img src="/media/draw/image/2014-02-03-02.gif"></img></div>
+<div id="draw"><img src="/media/draw/image/2014-02-03-02.gif"></div>
+翻着相册想起曾经的室友,拿了张刚到大学那会用寝室电脑摄像头照的,现在想想还真是满怀年的.大家很久没有聚在一起了.

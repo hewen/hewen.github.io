@@ -7,4 +7,5 @@ thread: 166
 category: 绘画
 tags: 绘画 
 ---
-<div id="draw"><img src="/media/draw/image/2014-02-06.gif"></img></div>
+<div id="draw"><img src="/media/draw/image/2014-02-06.gif"></div>
+练习图,算是这段时间画的不错的一张了.
