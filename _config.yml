@@ -1,15 +1,15 @@
 markdown: rdiscount
 permalink: /:title/
 url: http://hewen.github.io
+host: 192.168.1.103
 name: hewen.github.io 
 author: HeWen
 qq: 770465680
 email: HeWen.coder@gmail.com 
-duoshuo: hewen
 github: hewen
-pygments: true
+highlighter: pygments
 safe: true
-paginate: 20
+paginate: 5
 truncate: 200
 about: "Linux爱好者<br/><br/>
         没事喜欢画画<br/><br/>
