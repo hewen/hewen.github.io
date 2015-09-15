@@ -17,10 +17,10 @@ Gentoo现在安装官方推荐从stage3开始基本的工具都配置好了，�
 我的非主流的设备,我的无线网卡，这次手写板有了之前的折腾倒很简单就搞定了，这是比较烦人的问题。我的无线网卡是Broadcom的BCM4312，之前无线网卡安装按照[wireless.kernel.org](http://wireless.kernel.org/en/users/Drivers/b43/)的对b43网卡的安装步骤进行安装就搞定了。这次郁闷的的很，直接把Broadcom的驱动编译进内核死活无线网卡都没法用，打成模块就很顺利让waln0的网卡up了起来。编译内核还是技术活还是要好好研究。还有就是Gentoo的网络管理方式还真是有点不一样。对wlan0的start、stop，是要在/etc/init.d/net.l0文件建立个net.waln0的软链接来控制。还有就是通过wpa_supplicant来连接无线反应还真是有点慢，重启网卡后要过个几秒钟才连上还总是发出警告信息说是设备没激活。害我以为网卡驱动没弄好折腾好久。
 3.make.conf
 =============
-这是一个对Gentoo格外重要的文件，至少我这么觉得，应为这其中包含了编译的选项可以针对不同平台优化编译参数。FreeBSD也有这么个文件也是类似的效果。其中不知道怎么配置我首先是到网上找了个配置直接拿来改。其实因该还是要好好到Gentoo的文档和wiki上好好查查上面的介绍的很是详细。
+这是一个对Gentoo格外重要的文件，这其中包含了编译的选项可以针对不同平台优化编译参数。FreeBSD也有这么个文件也是类似的效果。
 4.emerge的包管理方式
 =============
-Gentoo中最不太适应的就是他的包管理，尤其是编译选项同过USE的变量来控制。之前就是搞不定USE选项弄得软件老是装不上，也不知道针对每个软件什么打标签弄得一头雾水。这次认真的看了下Gentoo的帮助文档和wiki总算有了点了解。原来有equery和eix的两个便利的工具可以很方便的查找用emerge安装的软件的各种信息，工具的详细使用方法可以参照Gentoo的wiki的[Gentoolkit部分](https://www.Gentoo.org/doc/zh_cn/Gentoolkit.xml#doc_chap2)。还有个网站专门来查Gentoo软件中的信息[Gentoobrowse.randomdan.homeip.net](http://Gentoobrowse.randomdan.homeip.net/)。这里说些废话，在编译软件中我觉得编译安装吃亏的就是firefox，编译时间太长初次安装比我安装系统时间还长长达2个多小时一堆依赖要装，而且貌似编译后的和官方的二进制版我基本没有感觉什么速度上的优势。还有就是编译桌面环境编译时间费的点时间，是要是安装gnome可先睡会了，桌面环境目前比较喜欢dwm，整个软件就几M大小，依赖少。
+Gentoo中最不太适应的就是他的包管理，尤其是编译选项同过USE的变量来控制。之前就是搞不定USE选项弄得软件老是装不上，也不知道针对每个软件什么打标签弄得一头雾水。这次认真的看了下Gentoo的帮助文档和wiki总算有了点了解。原来有equery和eix的两个便利的工具可以很方便的查找用emerge安装的软件的各种信息，工具的详细使用方法可以参照Gentoo的wiki的[Gentoolkit部分](https://wiki.gentoo.org/wiki/Gentoolkit)。还有个网站专门来查Gentoo软件中的信息[Gentoobrowse.randomdan.homeip.net](http://Gentoobrowse.randomdan.homeip.net/)。这里说些废话，在编译软件中我觉得编译安装吃亏的就是firefox，编译时间太长初次安装比我安装系统时间还长长达2个多小时一堆依赖要装，而且貌似编译后的和官方的二进制版我基本没有感觉什么速度上的优势。还有就是编译桌面环境编译时间费的点时间，是要是安装gnome可先睡会了，桌面环境目前比较喜欢dwm，整个软件就几M大小，依赖少。
 结束语
 =============
-安装Gentoo基本就是在了解Linux的过程，也是个不断折腾的过程。目前准备用Gentoo做主系统，Debian和FreeBSD可以在硬盘里先睡着了。
+安装Gentoo基本就是在了解Linux的过程，也是个不断折腾的过程。

@@ -1,7 +1,6 @@
 markdown: rdiscount
 permalink: /:title/
 url: http://hewen.github.io
-host: 192.168.1.103
 name: hewen.github.io 
 author: HeWen
 qq: 770465680
@@ -11,6 +10,6 @@ highlighter: pygments
 safe: true
 paginate: 5
 truncate: 200
-about: "Linux爱好者<br/><br/>
-        没事喜欢画画<br/><br/>
-        会些web开发，html、css、php<br/><br/>"
+about: "<ul><li>PHPer</li>
+        <li>Linux业余爱好者</li>
+        <li>vim/emacs预备党员</li></ul>"
