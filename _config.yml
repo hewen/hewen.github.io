@@ -3,7 +3,6 @@ permalink: /:title/
 url: http://hewen.github.io
 name: hewen.github.io 
 author: HeWen
-qq: 770465680
 email: HeWen.coder@gmail.com 
 github: hewen
 highlighter: pygments

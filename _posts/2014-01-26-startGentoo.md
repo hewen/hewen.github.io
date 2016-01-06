@@ -65,7 +65,7 @@ $ cp -L /etc/resolv.conf /mnt/gentoo/etc
 $ sudo chroot /mnt/gentoo /bin/bash
 #修改make.conf
 
- nano make.conf
+$ nano make.conf
 
 -----------
 CFLAGS="-O2 -march=i686 -pipe"
@@ -98,8 +98,8 @@ http://mirror.bjtu.edu.cn/gentoo/ \
 -----------
 
 #修改同步portage为国内地址
- mkdir /etc/portage/repos.conf/
- nano /etc/portage/repos.conf/gentoo.conf
+$ mkdir /etc/portage/repos.conf/
+$ nano /etc/portage/repos.conf/gentoo.conf
 
 -----------
 [DEFAULT]
@@ -113,47 +113,47 @@ auto-sync = yes
 -----------
 
 #同步portage
- emerge -av eix
- eix-sync
+$ emerge -av eix
+$ eix-sync
 
 #设置时区
- cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
- echo "Asia/Shanghai" > /etc/timezone
+$ cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+$ echo "Asia/Shanghai" > /etc/timezone
 #设置本机，默认为1
- eselect profile list
- eselect profile set 1
+$ eselect profile list
+$ eselect profile set 1
 #设置主机名
- nano /etc/conf.d/hostname
+$ nano /etc/conf.d/hostname
 #安装linux内核源码
- emerge gentoo-sources
+$ emerge gentoo-sources
 #内核自动配置与生成核心的工具
- emerge genkernel
+$ emerge genkernel
 # 编译内核
- cd /usr/src/linux
- make menuconfig
- make -j3
- make modules -j3
- make -j3 modules_install
- make install
+$ cd /usr/src/linux
+$ make menuconfig
+$ make -j3
+$ make modules -j3
+$ make -j3 modules_install
+$ make install
  
 #设置分区表
- nano /etc/fstab
+$ nano /etc/fstab
 #设置键盘
- nano /etc/conf.d/keymaps
+$ nano /etc/conf.d/keymaps
 #设置root密码
- passwd
+$ passwd
 
 #安装启动引导grub
- emerge -av sys-boot/grub
- grub-install --no-floppy /dev/sda
- grub2-mkconfig -o /boot/grub/grub.cfg
+$ emerge -av sys-boot/grub
+$ grub-install --no-floppy /dev/sda
+$ grub2-mkconfig -o /boot/grub/grub.cfg
  
 #设置无线网卡
- cd /etc/init.d
- ln -s net.lo net.wlan0
- rc-update add net.wlan0 default
+$ cd /etc/init.d
+$ ln -s net.lo net.wlan0
+$ rc-update add net.wlan0 default
 
- nano /etc/wpa_supplicant/wpa_supplicant.conf
+$ nano /etc/wpa_supplicant/wpa_supplicant.conf
  -----------
  network={
  ssid="ssid名称"
@@ -164,19 +164,19 @@ auto-sync = yes
  -----------
 
 #配置语言环境
- nano /etc/locale.gen
+$ nano /etc/locale.gen
  -----------
  en_US.UTF-8 UTF-8
  zh_CN.UTF-8 UTF-8
  -----------
- locale-gen
+$ locale-gen
 
- useradd -m -G users,wheel,lp,audio,video,usb -s /bin/bash 新用户
+$ useradd -m -G users,wheel,lp,audio,video,usb -s /bin/bash 新用户
 
 #到这里基本就可以重启进入新系统了,再安装常用软加和桌面环境
 
 #安装常用软件
-emerge -av
+$ emerge -av
 #常用系统工具
  app-shells/gentoo-zsh-completions app-shells/zsh sudo \
  app-portage/gentoolkit sys-apps/mlocate lftp \
