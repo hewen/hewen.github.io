@@ -1,9 +1,9 @@
 markdown: rdiscount
 permalink: /:title/
-url: http://hewen.github.io
-name: hewen.github.io 
+url: http://ehewen.org
+name: HEWEN's blog
 author: HeWen
-email: HeWen.coder@gmail.com 
+email: wen.bin.he@foxmail.com
 github: hewen
 highlighter: pygments
 safe: true
