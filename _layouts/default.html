@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
-  <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-    <meta name="google-site-verification" content="T-adTeQHcwj6TvjrduTnSPQDdlvzn6L0IweIRAkJYpk" />
-    <meta name="baidu-site-verification" content="tKIjL3B64v" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="baidu-site-verification" content="tKIjL3B64v" />
-    <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    <link rel="stylesheet" href="/media/css/style.min.css" />
-    <link rel="stylesheet" href="/media/css/highlight.min.css" />
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?94a595602a1cf7935038027aeefb94ce";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <meta name="google-site-verification" content="T-adTeQHcwj6TvjrduTnSPQDdlvzn6L0IweIRAkJYpk" />
+        <meta name="baidu-site-verification" content="tKIjL3B64v" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="{{ site.author }}" />
+        <meta content="鹤文,博客,hewen,blog" name="Keywords">
+        <meta name="description" content="HEWEN's blog" />
+        <title>{% if page.path == 'index.html' %}{{ site.name }}{% else %}{% unless page.id %}{{ site.name }} - {% endunless %}{{ page.title }}{% endif %}</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+        <link rel='stylesheet' href='/media/css/nprogress.min.css'/>
+        <link rel="stylesheet" href="/media/css/style.min.css" />
+        <link rel="stylesheet" href="/media/css/highlight.min.css" />
+        <link rel="stylesheet" href="/media/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">HEWEN</a>
+                </div>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
-      <script type="text/javascript" src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-  <body>
-    <nav>
-      <span>HEWEN</span>
-      <span><a title="网站首页" class="" href="/">首页</a></span>
-      <span><a title="文章分类" class="" href="/categories/">分类</a></span>
-      <span><a title="标签索引" class="" href="/tags/">标签</a></span>
-      <span><a title="读书笔记" class="" href="/book/">读书</a></span>
-      <span><a title="读书笔记" class="" href="/favorites/">收藏</a></span>
-      <span><a title="留言交流" class="" href="/guestbook/">留言</a></span>
-      <span><a title="关于站长" class="" href="/about/">关于</a></span>
-      <span><a title="种子订阅" class="" href="/feed/" target="_blank">订阅</a></span>
-    </nav>
-    <div id="logo"><a href="/">WELCOME TO HEWEN'S BLOY</a></div>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <article class="content">
-        {{ content }}
-        </article>
-      </div>
-    </div>
-    <footer>
-        <p><small>
-            <a href="http://github.com/{{ site.github }}/hewen.github.io/" target="_blank" title="项目地址">Powered</a>by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/hewen.github.io" target="_blank" title="项目主页">GitHub</a>
-             |<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
-{% if site.beian %}
-             | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
-{% endif %}
-{% if site.cnzz %}
-             | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}"></script>
-{% endif %}
-         </small></p>
-    </footer>
-  </body>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a title="首页" href="/">首页</a></li>
+                        <li><a title="分类" href="/categories/">分类</a></li>
+                        <li><a title="标签" href="/tags/">标签</a></li>
+                        <li><a title="读书" href="/book/">读书</a></li>
+                        <li><a title="收藏" href="/favorites/">收藏</a></li>
+                        <li><a title="留言" href="/guestbook/">留言</a></li>
+                        <li><a title="关于" href="/about/">关于</a></li>
+                        <li><a title="订阅" href="/feed/" target="_blank">订阅</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--
+            <nav>
+            <span>HEWEN</span>
+            <li><span><a title="首页" class="" href="/">首页</a></span></li>
+            <li><span><a title="分类" class="" href="/categories/">分类</a></span></li>
+            <li><span><a title="标签" class="" href="/tags/">标签</a></span></li>
+            <li><span><a title="读书" class="" href="/book/">读书</a></span></li>
+            <li><span><a title="收藏" class="" href="/favorites/">收藏</a></span></li>
+            <li><span><a title="留言" class="" href="/guestbook/">留言</a></span></li>
+            <li><span><a title="关于" class="" href="/about/">关于</a></span></li>
+            <li><span><a title="订阅" class="" href="/feed/" target="_blank">订阅</a></span></li>
+            </nav>
+        -->
+        <div id="logo"><a href="/">WELCOME TO HEWEN'S BLOY</a></div>
+        <div id="container">
+            <div id="main" role="main">
+                <header>
+                    <h1>{{ page.title }}</h1>
+                </header>
+                <article class="content">
+                    {{ content }}
+                </article>
+            </div>
+        </div>
+        <footer>
+            <p><small>
+                <a href="http://github.com/{{ site.github }}/hewen.github.io/" target="_blank" title="项目地址">Powered</a>by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/hewen.github.io" target="_blank" title="项目主页">GitHub</a>
+                |<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
+                {% if site.beian %}
+                | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
+                {% endif %}
+                {% if site.cnzz %}
+                | <script src="http://s85.cnzz.com/stat.php?id={{ site.cnzz }}"></script>
+                {% endif %}
+            </small></p>
+        </footer>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?94a595602a1cf7935038027aeefb94ce";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script type="text/javascript" src="/media/js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="/media/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src='/media/js/nprogress.min.js'></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+            <script type="text/javascript" src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script type="text/javascript">
+            NProgress.start();
+            NProgress.inc();
+            $(function(){
+                NProgress.done();
+            });
+        </script>
+    </body>
 </html>

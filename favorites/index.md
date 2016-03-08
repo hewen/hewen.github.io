@@ -205,8 +205,10 @@ tags: 资源收藏
 * [Puppet学习笔记(CentOS6.3+Puppet3.01)](http://www.chenshake.com/puppet-study-notes/#i-4)
 * [dash在线文档](http://devdocs.io/)
 
-<script>
-$("h4").each(function(){
-    $(this).attr("id",$(this).html());
-});
+<script type="text/javascript">
+    window.onload = function(){
+        $("h4").each(function(){
+            $(this).attr("id",$(this).html());
+        });
+    }
 </script>
