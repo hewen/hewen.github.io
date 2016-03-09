@@ -67,7 +67,6 @@ $ sudo chroot /mnt/gentoo /bin/bash
 
 $ nano make.conf
 
------------
 CFLAGS="-O2 -march=i686 -pipe"
 CXXFLAGS="${CFLAGS}"
 CHOST="i686-pc-linux-gnu"
@@ -82,8 +81,7 @@ LINGUAS="zh zh_CN zh_CN.UTF-8 en"
 VIDEO_CARDS="intel"
 ALSA_CARDS="hda-intel"
 
-GENTOO_MIRRORS="
-http://mirrors.163.com/gentoo/ \
+GENTOO_MIRRORS="http://mirrors.163.com/gentoo/ \
 http://mirrors.sohu.com/gentoo/ \
 http://mirrors.aliyun.com/gentoo/ \
 http://gentoo.cites.uiuc.edu/pub/gentoo/ \
@@ -93,15 +91,12 @@ http://mirror.its.uidaho.edu/pub/gentoo/ \
 http://ftp.ucsb.edu/pub/mirrors/linux/gentoo/ \
 http://mirrors.tuna.tsinghua.edu.cn/gentoo/ \
 http://mirrors.ustc.edu.cn/gentoo/ \
-http://mirror.bjtu.edu.cn/gentoo/ \
-"
------------
+http://mirror.bjtu.edu.cn/gentoo/"
 
 #修改同步portage为国内地址
 $ mkdir /etc/portage/repos.conf/
 $ nano /etc/portage/repos.conf/gentoo.conf
 
------------
 [DEFAULT]
 main-repo = gentoo
 
@@ -110,7 +105,6 @@ location = /usr/portage
 sync-type = rsync
 sync-uri = rsync://mirrors.ustc.edu.cn/gentoo-portage
 auto-sync = yes
------------
 
 #同步portage
 $ emerge -av eix
@@ -154,21 +148,18 @@ $ ln -s net.lo net.wlan0
 $ rc-update add net.wlan0 default
 
 $ nano /etc/wpa_supplicant/wpa_supplicant.conf
- -----------
  network={
  ssid="ssid名称"
  psk="密码"
  key_mgmt=WPA-PSK
  priority=5
 }
- -----------
 
 #配置语言环境
 $ nano /etc/locale.gen
- -----------
  en_US.UTF-8 UTF-8
  zh_CN.UTF-8 UTF-8
- -----------
+
 $ locale-gen
 
 $ useradd -m -G users,wheel,lp,audio,video,usb -s /bin/bash 新用户
@@ -176,36 +167,36 @@ $ useradd -m -G users,wheel,lp,audio,video,usb -s /bin/bash 新用户
 #到这里基本就可以重启进入新系统了,再安装常用软加和桌面环境
 
 #安装常用软件
-$ emerge -av
-#常用系统工具
+$ emerge -av \
+ #常用系统工具
  app-shells/gentoo-zsh-completions app-shells/zsh sudo \
  app-portage/gentoolkit sys-apps/mlocate lftp \
  app-text/tree app-arch/rar dev-vcs/tig dev-vcs/git \ 
-#无线网卡, 我的无线网卡: Broadcom Corporation BCM4312
+ #无线网卡, 我的无线网卡: Broadcom Corporation BCM4312
  wpa_supplicant sys-kernel/linux-firmware sys-firmware/b43-firmware \
-#声卡(Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller)
+ #声卡(Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller)
  media-sound/alsa-utils \
-#桌面环境
+ #桌面环境
  x11-base/xorg-server x11-base/xorg-drivers \
  xfce-base/xfce4-meta xfce-base/xfce4-session \
-#字体
+ #字体
  media-fonts/wqy-zenhei media-fonts/wqy-microhei \
  media-fonts/wqy-unibit media-fonts/wqy-bitmapfont \
-#输入法
+ #输入法
  app-i18n/fcitx app-i18n/fcitx-cloudpinyin app-i18n/fcitx-configtool \
-#屏保
+ #屏保
  x11-misc/xscreensaver \
-#pdf阅读器
+ #pdf阅读器
  kde-apps/okular \
-#终端
+ #终端
  x11-terms/guake
-#开发工具vim/emacs
+ #开发工具vim/emacs
  app-editors/vim app-editors/emacs \
-#浏览器
+ #浏览器
  www-client/firefox-bin \
-#画图
+ #画图
  media-gfx/gimp \
-#视频播放
+ #视频播放
  media-video/vlc
 
 {% endhighlight %}

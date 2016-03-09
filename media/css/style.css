@@ -24,7 +24,6 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container{width:80%;margin:0 auto 2em auto;display:block;padding-bottom:10px;padding-right:5%;padding-left:5%;background:#ffffff;border-radius: 0.3em;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);behavior: url(/media/js/PIE.htc);}
 .content{font-size:16px;line-height:24px;}
-.content h1{padding:.5em 0;}
 .content img{max-width:640px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;behavior: url(/media/js/PIE.htc);behavior: url(/media/js/PIE.htc);}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a{color:#000000}
