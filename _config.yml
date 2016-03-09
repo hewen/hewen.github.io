@@ -7,7 +7,7 @@ email: wen.bin.he@foxmail.com
 github: hewen
 highlighter: pygments
 safe: true
-paginate: 5
+paginate: 6
 truncate: 200
 about: "<ul><li>PHPer</li>
         <li>Linux业余爱好者</li>
