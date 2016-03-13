@@ -41,4 +41,4 @@ comments: yes
 * [小王子](http://book.douban.com/subject/1084336/)狐狸--请你驯服我吧.全书觉得最动情的一句.
 * [Redis入门指南](http://book.douban.com/subject/24522045/)redis很好的入门级书
 * [php和mysql web开发(原书第4版)](http://book.douban.com/subject/3549421/)我的PHP入门书
-* [乐者为王-just for fun](http://book.douban.com/subject/1395123/)Linux之父李纳斯·托沃兹自述.未看之前一直喜欢弄服务器,看了这本书就专心学习编程了.
+* [乐者为王-just for fun](http://book.douban.com/subject/1395123/)Linux之父李纳斯·托沃兹自传.膜拜下大神.
