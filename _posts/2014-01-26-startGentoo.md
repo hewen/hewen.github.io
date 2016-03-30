@@ -28,19 +28,13 @@ Gentoo中最不太适应的就是他的包管理，尤其是编译选项同过US
 
 附:安装记录
 =============
-首先安装gentoo你需要有一个linux环境,fdisk命令建立分区,mkfs.ext4格式化磁盘
 {% highlight sh %}
+#首先安装gentoo你需要有一个linux环境,fdisk命令建立分区,mkfs.ext4格式化磁盘
+#我设置的比较简单,/dev/sda1大小30G日常使用足够,挂载/目录,/dev/sda2挂载/home目录,启动分区没有单独设置,用了ssd硬盘没有分swap分区.如果使用lvm分区还要有其他设置,参考[gentoo的wiki文档](https://wiki.gentoo.org/wiki/LVM).
 $ sudo fdisk /dev/sda
-
 Device     Boot    Start       End   Sectors  Size Id Type
 /dev/sda1  *        2048  62916607  62914560   30G 83 Linux
 /dev/sda2       62916608 250069679 187153072 89.2G 83 Linux
-
-{% endhighlight %}
-
-我设置的比较简单,/dev/sda1大小30G日常使用足够,挂载/目录,/dev/sda2挂载/home目录,启动分区没有单独设置,用了ssd硬盘没有分swap分区.如果使用lvm分区还要有其他设置,参考[gentoo的wiki文档](https://wiki.gentoo.org/wiki/LVM).
-
-{% highlight sh %}
 $ sudo mkfs.ext4 /dev/sda1
 $ sudo mkfs.ext4 /dev/sda2
 $ sudo mkdir /mnt/gentoo
