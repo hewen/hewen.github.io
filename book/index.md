@@ -20,6 +20,8 @@ comments: yes
 * [七周七数据库](http://book.douban.com/subject/24737847/)看了开头拓展下知识面
 * [Python核心编程(第2版)](http://book.douban.com/subject/3112503/)
 * [Git权威指南](http://book.douban.com/subject/6526452/)看了一半,放着了.配合[gihug游戏](https://github.com/Gazler/githug)练习,向[GitHub 漫游指南](http://github.phodal.com/)看齐.
+* [PHP 扩展开发及内核应用](http://wiki.jikexueyuan.com/project/extending-embedding-php/)
+* [深入理解PHP内核](http://www.php-internals.com/book/)
 
 ----
 

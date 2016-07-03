@@ -122,7 +122,7 @@ $ nano /etc/conf.d/keymaps
 $ passwd
 #安装启动引导grub
 $ emerge -av sys-boot/grub
-$ grub-install --no-floppy /dev/sda
+$ grub2-install --no-floppy /dev/sda
 $ grub2-mkconfig -o /boot/grub/grub.cfg
 #设置无线网卡
 $ cd /etc/init.d
@@ -149,7 +149,7 @@ $ emerge -av \
  #常用系统工具
  app-shells/gentoo-zsh-completions app-shells/zsh sudo \
  app-portage/gentoolkit sys-apps/mlocate lftp \
- app-text/tree app-arch/rar dev-vcs/tig dev-vcs/git \ 
+ app-text/tree app-arch/rar dev-vcs/tig dev-vcs/git \
  #无线网卡, 我的无线网卡: Broadcom Corporation BCM4312
  wpa_supplicant sys-kernel/linux-firmware sys-firmware/b43-firmware \
  #声卡(Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller)
