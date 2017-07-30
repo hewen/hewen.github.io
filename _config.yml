@@ -6,12 +6,10 @@ author: HeWen
 email: wen.bin.he@foxmail.com
 github: hewen
 highlighter: rouge
-safe: true
 paginate: 5
 truncate: 200
 about: "<ul><li>PHPer</li>
         <li>Linux业余爱好者</li>
         <li>vim/emacs预备党员</li></ul>"
-gems: 
-   - jekyll-coffeescript
+plugins: 
    - jekyll-paginate
