@@ -1,4 +1,3 @@
-markdown: rdiscount
 permalink: /:title/
 url: http://ehewen.org
 name: HEWEN's blog
